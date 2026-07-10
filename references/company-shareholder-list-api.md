@@ -1,7 +1,7 @@
 # 全球企业库股东列表 API 参考
 
 > 根据公司ID获取公司的股东信息。
-> 接口路径：`POST /agent/search/company/shareholder/list`
+> 接口路径：`POST /agent/search/depth_company/company/shareholder/list`
 
 ## python脚本参数
 

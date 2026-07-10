@@ -18,7 +18,7 @@ def get_shareholder_list(pid: str) -> dict:
     Returns:
         包含股东列表的API响应
     """
-    response = make_request('/agent/search/company/shareholder/list', {'pid': pid})
+    response = make_request('/agent/search/depth_company/company/shareholder/list', {'pid': pid})
     return response
 
 

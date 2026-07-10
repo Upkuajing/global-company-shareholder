@@ -1,7 +1,7 @@
 ---
 name: global-company-shareholder
 description: Official skill for upkuajing (跨境魔方). Query shareholder list (股东列表) from the global company database (全球企业库). Get shareholder information including name, shareholding ratio, and shareholding type by company ID. Requires a company ID (pid) — obtain it first via the global-company-search skill.
-metadata: {"version":"1.0.0","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"🏛️","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+metadata: {"version":"1.0.1","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"🏛️","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # Global Company Shareholder Query
@@ -137,6 +137,9 @@ Other UpKuaJing skills you might find useful:
 - global-company-employee — Query employee list from the global company database
 - global-company-person-colleague — Query colleague list from the global company database
 - global-company-person-alumni — Query alumni list from the global company database
+- global-company-person-experience — Query work experience list from the global company database
+- global-company-person-education — Query education history list from the global company database
+- global-company-person-school-detail — Query school detail from the global company database
 - linkedin-person-search — Search people from LinkedIn data
 - linkedin-company-search — Search companies from LinkedIn data
 - upkuajing-global-company-people-search — Unified company and people search across all sources
